@@ -1,0 +1,16 @@
+package chicken_sandwich;
+
+public enum Bun {
+    ITALIAN,
+    WHOLE_WHEAT,
+    MULTIGRAIN,
+    HONEY_OAT,
+    ITALIAN_HERB_CHEESE,
+    FLATBREAD,
+    CIABATTA,
+    PARMESAN_OREGANO,
+    GLUTEN_FREE,
+    CHEDDAR_BREAD,
+    JALAPENO_CHEESE,
+    SIRACHA_FLATBREAD
+}
