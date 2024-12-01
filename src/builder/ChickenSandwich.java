@@ -12,6 +12,9 @@ public class ChickenSandwich implements Product{
     private FriedChicken chicken;
     private List<SandwichExtras> extras;
 
+    public ChickenSandwich(){
+        System.out.println("Init");
+    }
     private ChickenSandwich(Bun bun, Cheese cheese, Sauce sauce, FriedChicken chicken, List<SandwichExtras> extras) {
         this.bun = bun;
         this.cheese = cheese;

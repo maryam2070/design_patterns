@@ -1,5 +1,6 @@
 import builder.ChickenSandwich;
 import chicken_sandwich.*;
+import singlton.FriedChickenSandwichSingleton;
 
 import java.util.*;
 
@@ -17,7 +18,11 @@ public class Main {
         extras.add(SandwichExtras.AVOCADO);
         extras.add(SandwichExtras.BACON);
         builder.setExtras(extras);
-        final ChickenSandwich c=builder.build();
-        System.out.println(c.toString());
+        final ChickenSandwich sandwich=builder.build();
+        System.out.println(sandwich.toString());
+
+        ChickenSandwich singletonSandwich= FriedChickenSandwichSingleton.get();
+        System.out.println(singletonSandwich.toString());
+
     }
 }
