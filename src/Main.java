@@ -1,8 +1,7 @@
 import sherif.builder.Car;
 import sherif.builder.CarBuilder;
 import sherif.builder.CarBuilderImpl;
-
-import java.util.*;
+import sherif.singleton.SingletonInstance;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,5 +24,7 @@ public class Main {
 
         System.out.println(volvo.toString());
         System.out.println(fait.toString());
+
+        SingletonInstance.getInstance();
     }
 }
