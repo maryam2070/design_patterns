@@ -16,7 +16,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return " Car {" +
+        return "{" +
                 " Number of seats =" + numOfSeats +
                 ", Type of engine =" + engine +
                 ", GPS =" + setGPS +
