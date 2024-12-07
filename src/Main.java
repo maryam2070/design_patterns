@@ -8,13 +8,22 @@ public class Main {
     public static void main(String[] args) {
         CarBuilderImpl carBuilder = new CarBuilderImpl();
         CarBuilder carBuilder1 = new CarBuilderImpl();
-        carBuilder.setGPS(true)
-                .setEngine("engine")
-                .setSeats(10)
+        carBuilder1.setGPS(false)
                 .setTripComputer(false)
+                .setSeats(6)
+                .setEngine("Tipo Engine");
+        Car fait = carBuilder1.build();
+
+
+        carBuilder.setGPS(true)
+                .setEngine("Volvo Engine")
+                .setSeats(5)
+                .setTripComputer(true)
                 .build();
-        Car car = carBuilder.build();
-        System.out.println(car.toString());
-        System.out.println(carBuilder.toString());
+        Car volvo = carBuilder.build();
+
+
+        System.out.println(volvo.toString());
+        System.out.println(fait.toString());
     }
 }
