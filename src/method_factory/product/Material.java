@@ -1,4 +1,4 @@
-package factory.product;
+package method_factory.product;
 
 public enum Material{
     GLASS,

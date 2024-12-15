@@ -1,7 +1,7 @@
-package factory.creator;
+package method_factory.creator;
 
-import factory.product.GameItem;
-import factory.product.ShieldItem;
+import method_factory.product.GameItem;
+import method_factory.product.ShieldItem;
 
 public class GoldenMysteryBox extends MysteryBox{
     @Override

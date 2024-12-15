@@ -1,6 +1,6 @@
-package factory.creator;
+package method_factory.creator;
 
-import factory.product.GameItem;
+import method_factory.product.GameItem;
 
 public abstract class MysteryBox {
     abstract GameItem createGameItem();

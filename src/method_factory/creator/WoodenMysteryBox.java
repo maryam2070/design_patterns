@@ -1,10 +1,11 @@
-package factory.creator;
+package method_factory.creator;
 
-import factory.product.GameItem;
-import factory.product.Material;
-import factory.product.SwordItem;
+import method_factory.product.GameItem;
+import method_factory.product.Material;
+import method_factory.product.SwordItem;
 
 public class WoodenMysteryBox extends MysteryBox{
+
     @Override
     GameItem createGameItem() {
         return new SwordItem(

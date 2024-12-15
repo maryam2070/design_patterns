@@ -1,4 +1,4 @@
-package factory.product;
+package method_factory.product;
 
 public class ShieldItem extends GameItem {
     private int protectionLevel;
